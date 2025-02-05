@@ -1,0 +1,26 @@
+{
+  "name": "blackoutpay",
+  "version": "0.0.3",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "define:change": "changeset",
+    "release:apply": "changeset version",
+    "release:publish": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.12",
+    "prettier": "^3.4.2",
+    "tsup": "^8.3.6"
+  },
+  "keywords": [
+    "blackout",
+    "blackoutpay",
+    "sdk"
+  ],
+  "license": "MIT",
+  "description": "SDK oficial da blackoutpay para Node.js"
+}
